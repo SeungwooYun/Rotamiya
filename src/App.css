@@ -46,6 +46,15 @@ footer {
   margin-top: 1rem;
 }
 
+.rotate_logo:hover {
+  width: 15rem;
+  transition-duration: 0.5s;
+}
+
+.rotate_logo:not( :hover ) {
+  transition-duration: 0.5s;
+}
+
 /* 네비게이션바 */
 
 .Nav {
@@ -67,6 +76,15 @@ footer {
   padding: 1rem;
 }
 
+.Nav-hover:hover {
+  font-size: 1.8rem;
+  transition-duration: 0.3s;
+  opacity: 0.3;
+}
+
+.Nav-hover:not( :hover ){
+  transition-duration: 0.5s;
+}
 /* 메인홈컨텐츠 */
 
 .main-contents-text {

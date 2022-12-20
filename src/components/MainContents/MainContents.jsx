@@ -21,13 +21,12 @@ const MainContents = () => {
             const entryContent = entry.target.innerHTML
             // 각 observe가 무슨 글자로 시작하는지로 구분해야함
             if (entryContent.startsWith('<p>1')) {
-                setIsFirstContentVisible(entries[0].isIntersecting)
+                setIsFirstContentVisible(entries[0].isIntersecting);
             } else if (entryContent.startsWith('<p>2')) {
-                setIsSecondContentVisible(entries[0].isIntersecting)
+                setIsSecondContentVisible(entries[0].isIntersecting);
             } else if (entryContent.startsWith('<p>3')) {
-                setIsThirdContentVisible(entries[0].isIntersecting)
+                setIsThirdContentVisible(entries[0].isIntersecting);
             }
-            console.log(entry.intersectionRatio)
         })
         observer.observe(contentRef1.current);
         observer.observe(contentRef2.current);
