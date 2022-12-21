@@ -43,7 +43,7 @@ const MainContents = () => {
     // 받아올 수 있다면 베스트이겠지만, 컴포넌트 자체가 많지 않으니 여기서 해결하자
 
     return <>
-        <div ref={contentRef1} className={`main-contents-text right-side ${isFirstContentVisible ? "appear" : ""}`}>
+        <div ref={contentRef1} className={`main-contents-text right-side full-viewheight ${isFirstContentVisible ? "appear" : ""}`}>
             <p>1Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore</p>
         </div>

@@ -1,5 +1,10 @@
 /* 폰트 */
+/* 컨텐츠 */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+/* Logo-text */
+
 
 /* 색조합 */
 /* https://colorhunt.co/palette/e5d9b6a4be7b5f8d4e285430 */
@@ -9,27 +14,28 @@
 body {
   background-color: #8FA382;
   margin: 0;
+  padding: 3.5rem 0 0 0 ;
   text-align: center;
-  padding: 1% 5%;
-  border: 2rem solid #285430;
-  border-top-width: 1.5rem;
-  box-sizing: border-box;
+  /* border: solid #285430; */
+  /* border-top-width: 2rem; */
+  /* box-sizing: border-box; */
 }
+
 
 footer {
   clear:both;
   text-align: center;
   position: relative;
   bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-/* 클래스 */
+
 /* 헤더 */
 
 .div-Header {
   background-color: #8FA382;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .Header-text {
@@ -42,13 +48,15 @@ footer {
 
 .rotate_logo {
   width: 10rem;
-  animation: rotation 5s infinite linear;
+  animation: rotation 6s infinite linear;
   margin-top: 1rem;
+  transition: all;
 }
 
 .rotate_logo:hover {
   width: 15rem;
   transition-duration: 0.5s;
+  animation: rotation-hover 1s ;
 }
 
 .rotate_logo:not( :hover ) {
@@ -59,27 +67,30 @@ footer {
 
 .Nav {
   position: relative;
-  bottom: 1.5rem;
+  bottom: 2rem;
 }
 
 .Nav-ul {
   font-size: 1.2rem;
   text-align: center;
-  
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  margin-bottom: 5%;
+  padding: 0.5rem 0 0 0;
 }
 
 .Nav-ul li {
   display: inline;
-  padding: 1rem;
+  padding: 0.3rem;
+  opacity: 0.3;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
 .Nav-hover:hover {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   transition-duration: 0.3s;
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .Nav-hover:not( :hover ){
@@ -91,20 +102,36 @@ footer {
   clear: both;
   font-family: 'Archivo Black', sans-serif;
   position: relative;
+  display: block;
   bottom:3rem;
   width: 60%;
-  padding: 0;
+  padding: 0 4%;
   margin: 0;
   font-size: 4rem;
   font-weight:700;
   opacity: 0;
-  transition: all 1.5s;
-  color:#285430;
+  transition: all 2s;
+  color: white;
+  /* color:#285430; */
 }
 
+.main-contents-text:hover {
+  transition: all 0.5s;
+  opacity: 0.7;
+}
+
+.main-contents-text:not( :hover) {
+  transition: all 0.5s;
+}
+
+.full-viewheight {
+  height: 60%vh;
+}
+
+
 .appear {
-  animation: fade-up 2.5s ease-in forwards;
-  opacity: 0.9;
+  animation: fade-up 4s linear forwards;
+  opacity: 0.2;
 }
 
 .right-side {
@@ -117,23 +144,30 @@ footer {
   text-align:left;
 }
 
-.second-overlay-text {
-  position: relative;
-  bottom:3rem;
-  width: 50%;
-  float: left;
-  padding: 0;
-  margin: 0;
-  font-size: 3.2rem;
-  text-align:right;
+
+/* 테스트비디오 */
+.video1 {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
 }
 
 
 
-
-
-
 @keyframes rotation {
+  from {
+    transform: rotate(0deg); opacity: 0.4;
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation-hover {
   from {
     transform: rotate(0deg);
   }
@@ -143,7 +177,7 @@ footer {
 }
 
 @keyframes fade-up {
-  from { transform: translateY(2rem); }
+  from { transform: translateY(3.5rem);  }
   to { transform: translateY(0);}
 }
 
