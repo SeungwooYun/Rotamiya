@@ -14,8 +14,9 @@
 body {
   background-color: #8FA382;
   margin: 0;
-  padding: 3.5rem 0 0 0 ;
+  padding: 5rem 0 0 0 ;
   text-align: center;
+  align-content: center;
   /* border: solid #285430; */
   /* border-top-width: 2rem; */
   /* box-sizing: border-box; */
@@ -29,6 +30,22 @@ footer {
   bottom: 1rem;
   margin-bottom: 0.5rem;
 }
+
+/* 백그라운드 비디오*/
+/* 이거 반응형으로 바꿔줘야함 */
+
+.video1 {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+
 
 
 /* 헤더 */
@@ -71,9 +88,10 @@ footer {
 }
 
 .Nav-ul {
+  color: black;
   font-size: 1.2rem;
   text-align: center;
-  list-style-type: none;
+  text-decoration: none;
   margin: 0;
   margin-bottom: 5%;
   padding: 0.5rem 0 0 0;
@@ -81,11 +99,12 @@ footer {
 
 .Nav-ul li {
   display: inline;
-  padding: 0.3rem;
+  padding: 0.4rem;
   opacity: 0.3;
   font-family: 'Fjalla One', sans-serif;
-
+  list-style-type: none;
 }
+
 
 .Nav-hover:hover {
   font-size: 1.4rem;
@@ -96,6 +115,20 @@ footer {
 .Nav-hover:not( :hover ){
   transition-duration: 0.5s;
 }
+
+.unactive {
+  color: #285430;
+  text-decoration: none;
+}
+
+.active {
+  transition: all 0.3s;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
 /* 메인홈컨텐츠 */
 
 .main-contents-text {
@@ -124,9 +157,6 @@ footer {
   transition: all 0.5s;
 }
 
-.full-viewheight {
-  height: 60%vh;
-}
 
 
 .appear {
@@ -144,17 +174,6 @@ footer {
   text-align:left;
 }
 
-
-/* 테스트비디오 */
-.video1 {
-  position:fixed;
-  top: 0;
-  left: 0;
-  height: 100%vh;
-  width: 100%;
-  z-index: -1;
-  opacity: 0.8;
-}
 
 
 

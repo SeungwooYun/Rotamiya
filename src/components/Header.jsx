@@ -1,8 +1,11 @@
 import Navbar from "./Navbar";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return <header className="div-Header">
-        <img className="rotate_logo" src="images/Rotamiya_Logo_1_cropped.png" alt="Rotamiya Logo" />
+        <NavLink to="/home">
+            <img className="rotate_logo" src="images/Rotamiya_Logo_1_cropped.png" alt="Rotamiya Logo" />
+        </NavLink>
         <video
             className='video1'
             src='images/video1.mp4' type='video/mp4' autoplay="autoplay" muted loop>
