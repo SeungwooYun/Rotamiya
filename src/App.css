@@ -6,6 +6,14 @@
 /* Logo-text */
 
 
+
+
+
+
+
+
+
+
 /* 색조합 */
 /* https://colorhunt.co/palette/e5d9b6a4be7b5f8d4e285430 */
 
@@ -16,7 +24,6 @@ body {
   margin: 0;
   padding: 5rem 0 0 0 ;
   text-align: center;
-  align-content: center;
   /* border: solid #285430; */
   /* border-top-width: 2rem; */
   /* box-sizing: border-box; */
@@ -61,6 +68,7 @@ footer {
 }
 .page-wrapper:hover{
   opacity: 0.6;
+  width: 58%;
 }
 
 
@@ -106,7 +114,6 @@ footer {
 }
 
 .Nav-ul {
-  color: black;
   font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
@@ -260,3 +267,119 @@ button {
   to { transform: translateY(0);}
 }
 
+@media (max-width: 1280px) {
+
+  body {
+    padding: 50% 0 0 0 ;
+  }
+
+  /* header */
+  .rotate_logo {
+    width: 8rem;
+    margin-top: 0.5rem;
+    transition: all;
+  }
+
+  .rotate_logo:hover {
+    width: 11rem;
+    transition-duration: 0.5s;
+    animation: rotation-hover 1s ;
+  }
+
+  .Header-text {
+    font-size: 0.5rem;
+    margin-top: 1.2rem;
+    color: white;
+    font-weight:300;
+  }
+  
+  /* 비디오 */
+  
+.video1 {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: auto;
+  padding: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+/* Navbar */
+  .Nav-ul {
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 1rem 0;
+    margin-bottom: 0;    
+  }
+  
+  .Nav-ul li {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    border: solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0.3rem;
+    border-radius:3px;
+  }
+
+  
+  .unactive {
+    color: #285430;
+    text-decoration: none;
+    opacity: 0.3;
+  }
+  
+  .active {
+    transition: all 0.3s;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  
+/* Each Menu */
+.title {
+  color: #8FA382;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  opacity: 0.5;
+  margin: 2rem 0;
+}
+
+  /* Home texts */
+.main-contents-text {
+  font-family: 'Archivo Black', sans-serif;
+  position: relative;
+  display: block;
+  bottom:1rem;
+  width: 70%;
+  padding: 1.5% 5%;
+  margin: 0;
+  font-size: 2rem;
+  opacity: 0;
+  transition: all 2s;
+  color: white;
+}
+
+.appear {
+  animation: fade-up 4s linear forwards;
+  opacity: 0.2;
+}
+
+.right-side {
+  float: right;
+  text-align:right;
+}
+
+.left-side {
+  float: left;
+  text-align:left;
+}
+
+
+}

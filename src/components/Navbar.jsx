@@ -15,7 +15,7 @@ const Navbar = () => {
             <li className="Nav-hover">
                 <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/products'>Products&Services</NavLink>
             </li>
-            <li className="Nav-hover">
+            <li className="Nav-hover Nav-last">
                 <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/contact'>Contact</NavLink>
             </li>
         </ul>
