@@ -13,7 +13,7 @@ const Navbar = () => {
                 <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/aboutus'>About Us</NavLink>
             </li>
             <li className="Nav-hover">
-                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/products'>Products</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/products'>Products&Services</NavLink>
             </li>
             <li className="Nav-hover">
                 <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/contact'>Contact</NavLink>
