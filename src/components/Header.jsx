@@ -8,7 +8,7 @@ const Header = () => {
         </NavLink>
         <video
             className='video1'
-            src='images/video1.mp4' type='video/mp4' autoplay="autoplay" muted loop>
+            src='images/video1.mp4' type='video/mp4' autoPlay="autoplay" muted loop>
         </video>
         <p className="Header-text">Lorem ipsum dolor sit amet</p>
         <Navbar />

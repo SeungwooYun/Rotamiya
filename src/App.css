@@ -198,6 +198,7 @@ footer {
   text-align:left;
 }
 
+
 /* Each Menu */
 .title {
   color: white;
@@ -207,7 +208,34 @@ footer {
   opacity: 0.7;
 }
 
+/* Contact */
 
+form {
+  text-align: center;
+}
+
+form label {
+  display: inline;
+}
+
+form div {
+  margin: 1rem;
+  display: inline;
+}
+
+textarea {
+  margin: 0.7rem 0;
+  width: 60%
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 7rem;
+  background-color: white;
+  border: 1px solid;
+  border-radius:5px;
+}
 
 @keyframes rotation {
   from {
