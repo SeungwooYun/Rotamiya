@@ -2,9 +2,9 @@ import PageWrapper from "../tools/PageWrapper";
 import AnimatedPage from "../tools/AnimatedPage";
 
 
-const Products = () => {
+const Services = () => {
     return <AnimatedPage>
-        <h1 className="title">Products</h1>
+        <h1 className="title">Services</h1>
         <PageWrapper>
             <h2> Hi We are Rotamiya</h2>
             <h2>Lorem ipsum is placeholder text commonly used in the graphic,
@@ -22,4 +22,4 @@ const Products = () => {
     </AnimatedPage>
 }
 
-export default Products;
+export default Services;

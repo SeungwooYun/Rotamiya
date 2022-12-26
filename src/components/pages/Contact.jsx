@@ -10,7 +10,15 @@ const Contact = () => {
     // 여기는 form submit 에서 자동으로 thank you page를 보여주기 때문인지 event.preventDefault 를 쓰면 오류가 난다.. 
 
     return <AnimatedPage>
-        <h1 className="title">Contact</h1>
+        <h1 className="title">Contact Us</h1>
+
+        <PageWrapper>
+            <h2>회사정보</h2>
+        </PageWrapper>
+        <PageWrapper>
+            <h2>주소/구글맵스</h2>
+        </PageWrapper>
+
         <PageWrapper>
             <form action="https://formsubmit.co/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
                 <div>

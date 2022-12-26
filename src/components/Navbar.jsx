@@ -13,10 +13,13 @@ const Navbar = () => {
                 <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/aboutus'>About Us</NavLink>
             </li>
             <li className="Nav-hover">
-                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/products'>Products&Services</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/products'>Products</NavLink>
+            </li>
+            <li className="Nav-hover">
+                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/services'>Services</NavLink>
             </li>
             <li className="Nav-hover Nav-last">
-                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/contact'>Contact</NavLink>
+                <NavLink className={({ isActive }) => (isActive ? 'active' : 'unactive')} to='/contact'>Contact Us</NavLink>
             </li>
         </ul>
     </div>

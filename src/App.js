@@ -5,8 +5,10 @@ import Header from "./components/Header"
 import AboutUS from './components/pages/AboutUS';
 import Products from './components/pages/Products';
 import Contact from './components/pages/Contact';
+import Services from './components/pages/Services';
 import Footer from "./components/Footer"
 import MainContents from './components/pages/MainContents'
+
 
 function App() {
   const location = useLocation();
@@ -20,6 +22,7 @@ function App() {
           <Route path='/home' element={<MainContents />} />
           <Route path='/aboutus' element={<AboutUS />} />
           <Route path='/products' element={<Products />} />
+          <Route path='/services' element={<Services />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </AnimatePresence>

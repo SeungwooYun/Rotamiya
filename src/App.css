@@ -358,7 +358,7 @@ button {
   display: block;
   bottom:1rem;
   width: 70%;
-  padding: 1.5% 5%;
+  padding: 8% 10% 5% 5%;
   margin: 0;
   font-size: 2rem;
   opacity: 0;
@@ -379,6 +379,25 @@ button {
 .left-side {
   float: left;
   text-align:left;
+}
+
+/* 각 카테고리 메인 글 */
+.page-wrapper{
+  background-color: white;
+  border-radius: 3rem;
+  opacity: 0.2;
+  width: 55%;
+  margin: 1% auto;
+  padding:  0.5rem 2rem;
+  font-size: 0.7rem;
+  text-align: left;
+  transition: all 0.4s;
+  color: #285430;
+}
+.page-wrapper:hover{
+  opacity: 0.6;
+  width: 57%;
+  font-size: 0.8rem;
 }
 
 
