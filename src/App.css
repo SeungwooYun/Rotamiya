@@ -60,7 +60,7 @@ footer {
   opacity: 0.2;
   width: 60%;
   margin: 1% auto;
-  padding:  0.5rem 2rem;
+  padding:  0.5rem 1rem;
   font-size: 1.3rem;
   text-align: left;
   transition: all 0.4s;
@@ -219,21 +219,22 @@ footer {
 /* Contact */
 
 form {
+  margin: 0 auto;
+  padding: 0;
+  width: 38%;
+}
+
+.form-emailAndName{
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  justify-content: space-evenly;
 }
 
-form label {
-  display: inline;
-}
-
-form div {
-  margin: 1rem;
-  display: inline;
-}
 
 textarea {
   margin: 0.7rem 0;
-  width: 60%
+  width: 100%
 }
 
 button {
@@ -251,16 +252,19 @@ button {
   flex-wrap: nowrap;
   justify-content: space-evenly;
 }
-.address-title {
-  text-align: center;
-  font-size: 1.5rem;
-}
+
 .address{
+  position: relative;
+  left: 20px;
   font-size: 1rem;
   margin: 15px;
   width: 40%;
 }
 
+.address-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
 
 @keyframes rotation {
   from {
@@ -416,6 +420,36 @@ button {
   opacity: 0.6;
   width: 57%;
   font-size: 0.8rem;
+}
+
+
+.mapsAndAdressesContainer{
+  display: inline;
+  flex-wrap: nowrap;
+}  
+.address-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.address{
+  position: relative;
+  bottom: 20px;
+  font-size: 1rem;
+  margin: 0;
+  width: 100%;
+}
+
+form {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.form-emailAndName{
+  display: inline;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 

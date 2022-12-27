@@ -32,7 +32,7 @@ const Contact = () => {
 
         <PageWrapper>
             <form action="https://formsubmit.co/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
-                <div>
+                <div className="form-emailAndName">
                     <div>
                         <label htmlFor="email_name"> Name  </label>
                         <input id="email_name" name="email_name" type="text" required></input>

@@ -1,11 +1,11 @@
 import { GoogleMap, useJsApiLoader, MarkerF } from '@react-google-maps/api';
 // npm i -S @react-google-maps/api npm 패키지 추가했음 for google maps
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 
 
 const Maps = () => {
     const containerStyle = {
-        width: '500px',
+        width: '100%',
         height: '300px',
         margin: "30px auto",
         display: "inline-block"
