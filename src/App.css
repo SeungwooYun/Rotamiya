@@ -58,17 +58,18 @@ footer {
   background-color: white;
   border-radius: 3rem;
   opacity: 0.2;
-  width: 55%;
+  width: 60%;
   margin: 1% auto;
   padding:  0.5rem 2rem;
   font-size: 1.3rem;
   text-align: left;
   transition: all 0.4s;
   color: #285430;
+  white-space: pre-wrap;
 }
 .page-wrapper:hover{
-  opacity: 0.6;
-  width: 58%;
+  opacity: 0.8;
+  width: 65%;
 }
 
 
@@ -243,6 +244,23 @@ button {
   border: 1px solid;
   border-radius:5px;
 }
+
+.mapsAndAdressesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.address-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.address{
+  font-size: 1rem;
+  margin: 15px;
+  width: 40%;
+}
+
 
 @keyframes rotation {
   from {

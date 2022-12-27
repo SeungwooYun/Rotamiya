@@ -1,5 +1,6 @@
 import PageWrapper from "../tools/PageWrapper";
 import AnimatedPage from "../tools/AnimatedPage";
+import Maps from "./Maps";
 
 
 const Contact = () => {
@@ -12,12 +13,22 @@ const Contact = () => {
     return <AnimatedPage>
         <h1 className="title">Contact Us</h1>
 
+
+
         <PageWrapper>
-            <h2>회사정보</h2>
+            <div className="mapsAndAdressesContainer">
+                <Maps></Maps>
+                <div className="address">
+                    <h2 className="address-title">Company Location</h2>
+                    <div><p>25-26, Pungnammun 4-gil, Wansan-gu, Jeonju-si, Jeollabuk-do, Republic of Korea {'\n'}Tel. +82 10 4565 5577</p></div>
+                    <div><p>JIzzax city Q.Imamov street 49/7, Uzbekistan {'\n'}Tel. +998 91 944 03 30</p></div>
+                    <div><p>602, Falconcity, Dubai, UAE {'\n'}Tel. +971509596945</p>
+                    </div>
+                </div>
+            </div>
         </PageWrapper>
-        <PageWrapper>
-            <h2>주소/구글맵스</h2>
-        </PageWrapper>
+
+
 
         <PageWrapper>
             <form action="https://formsubmit.co/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
