@@ -16,7 +16,7 @@ const Contact = () => {
 
 
         <PageWrapper>
-            <div className="mapsAndAdressesContainer">
+            <div id="map" className="mapsAndAdressesContainer">
                 <Maps></Maps>
                 <div className="address">
                     <h2 className="address-title">Company Location</h2>
@@ -31,26 +31,27 @@ const Contact = () => {
 
 
         <PageWrapper>
-            <h2 className="ContactUs-title">Contact Us</h2>
-            <form action="https://formsubmit.co/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
-                <div className="form-emailAndName">
-                    <div>
-                        <label htmlFor="email_name"> Name  </label>
-                        <input id="email_name" name="email_name" type="text" required></input>
+            <div id="contactus">
+                <h2 className="ContactUs-title">Contact Us</h2>
+                <form action="https://formsubmit.co/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
+                    <div className="form-emailAndName">
+                        <div>
+                            <label htmlFor="email_name"> Name  </label>
+                            <input id="email_name" name="email_name" type="text" required></input>
+                        </div>
+                        {/* <input type="hidden" name="_next" value="http://localhost:3000/"></input> */}
+                        {/* 이부분 호스팅 이후 실제 url로 고쳐야함 */}
+                        <div>
+                            <label htmlFor="email"> E-mail  </label>
+                            <input id="email" name="email" type="email" required></input>
+                        </div>
                     </div>
-                    {/* <input type="hidden" name="_next" value="http://localhost:3000/"></input> */}
-                    {/* 이부분 호스팅 이후 실제 url로 고쳐야함 */}
                     <div>
-                        <label htmlFor="email"> E-mail  </label>
-                        <input id="email" name="email" type="email" required></input>
+                        <textarea id="email_text" name="email_text" rows="10" cols="10" required></textarea>
                     </div>
-                </div>
-                <div>
-                    <textarea id="email_text" name="email_text" rows="10" cols="10" required></textarea>
-                </div>
-                <button>Send</button>
-            </form>
-
+                    <button>Send</button>
+                </form>
+            </div>
         </PageWrapper>
 
     </AnimatedPage>

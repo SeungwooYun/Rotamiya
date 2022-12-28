@@ -6,17 +6,28 @@ const Products = () => {
     return <AnimatedPage>
         <h1 className="title">Products</h1>
         <PageWrapper>
-            <h2> Hi We are Rotamiya</h2>
-            <h2>Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and visual mockups.</h2>
-            <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,</h2>
+            <div id="Attire">
+                <h2>Attire</h2>
+                <h2>Lorem ipsum is placeholder text commonly used in the graphic,
+                    print, and publishing industries for previewing layouts and visual mockups.</h2>
+                <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,</h2>
+            </div>
         </PageWrapper>
         <PageWrapper>
-            <h2>and publishing industries for previewing layouts and visual mockups.</h2>
-            <h2>Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and visual mockups.</h2>
-            <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,
-                and publishing industries for previewing layouts and visual mockups.</h2>
+            <div id="Beauty Products">
+                <h2>Beauty Products</h2>
+                <h2>Lorem ipsum is placeholder text commonly used in the graphic,
+                    print, and publishing industries for previewing layouts and visual mockups.</h2>
+                <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,</h2>
+            </div>
+        </PageWrapper>
+        <PageWrapper>
+            <div id="Health Products">
+                <h2>Health Products</h2>
+                <h2>Lorem ipsum is placeholder text commonly used in the graphic,
+                    print, and publishing industries for previewing layouts and visual mockups.</h2>
+                <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,</h2>
+            </div>
         </PageWrapper>
 
     </AnimatedPage>
