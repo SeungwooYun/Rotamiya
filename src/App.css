@@ -111,46 +111,45 @@ footer {
 
 .Nav {
   position: relative;
-  bottom: 2rem;
+  bottom: 1.3rem;
 }
 
 .Nav-ul {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
   text-decoration: none;
   margin: 0;
-  margin-bottom: 5%;
-  padding: 0.5rem 0 0 0;
+  margin-bottom: 3%;
 }
 
 .Nav-ul li {
-  display: inline;
-  padding: 0.4rem;
+  display:inline-block;
+  padding: 1rem;
   opacity: 0.3;
   font-family: 'Fjalla One', sans-serif;
   list-style-type: none;
+  position: relative;
+  vertical-align: top;
 }
 
-.Nav-hover {
-  opacity: 0.3
-}
+
 
 .Nav-hover:hover {
-  color: white;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   transition-duration: 0.3s;
   opacity: 1;
 }
 
+
 .Nav-hover:not( :hover ){
   transition-duration: 0.5s;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .unactive {
   color: #285430;
   text-decoration: none;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .active {
@@ -159,7 +158,47 @@ footer {
   text-decoration: none;
   font-size: 2rem;
   color: white;
+  margin: 0;
 }
+
+/* Nav-submenu */
+
+.Nav > .Nav-ul > li > ul {
+  display: none;
+}
+
+.Nav > .Nav-ul >  li:hover > ul {
+  display: block;
+  animation: SubMenuMounting 1s forwards ;
+  transition: all 1s;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav > .Nav-ul >  li:hover > ul > li {
+  display: block;
+  font-size: 1.2rem;
+  padding: 1rem 0 0 0.5rem;
+  margin: 0;
+  transition: all 0.5s;
+  opacity: 0.3;
+}
+
+
+.Nav > .Nav-ul >  li:hover > ul > li:hover {
+  display: block;
+  padding: 1rem 0 0 0.5rem;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.Nav > .Nav-ul >  li:hover > ul > li:not( :hover ){
+  transition-duration: 0.5s;
+}
+
+
+
+
 
 /* Home */
 
@@ -266,6 +305,12 @@ button {
   font-size: 1.5rem;
 }
 
+.ContactUs-title {
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg); opacity: 0.4;
@@ -288,6 +333,12 @@ button {
   from { transform: translateY(3.5rem);  }
   to { transform: translateY(0);}
 }
+
+@keyframes SubMenuMounting {
+  from { transform: translateY(-0.5rem); }
+  to { transform: translateY(0); }
+}
+
 
 @media (max-width: 1280px) {
 
@@ -409,7 +460,7 @@ button {
   border-radius: 3rem;
   opacity: 0.2;
   width: 55%;
-  margin: 1% auto;
+  margin: 2% auto;
   padding:  0.5rem 2rem;
   font-size: 0.7rem;
   text-align: left;

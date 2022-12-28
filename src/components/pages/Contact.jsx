@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="address">
                     <h2 className="address-title">Company Location</h2>
                     <div><p>25-26, Pungnammun 4-gil, Wansan-gu, Jeonju-si, Jeollabuk-do, Republic of Korea {'\n'}Tel. +82 10 4565 5577</p></div>
-                    <div><p>JIzzax city Q.Imamov street 49/7, Uzbekistan {'\n'}Tel. +998 91 944 03 30</p></div>
+                    <div><p>JIzzakh city Q.Imamov street 49/7, Uzbekistan {'\n'}Tel. +998 91 944 03 30</p></div>
                     <div><p>602, Falconcity, Dubai, UAE {'\n'}Tel. +971509596945</p>
                     </div>
                 </div>
@@ -31,6 +31,7 @@ const Contact = () => {
 
 
         <PageWrapper>
+            <h2 className="ContactUs-title">Contact Us</h2>
             <form action="https://formsubmit.co/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
                 <div className="form-emailAndName">
                     <div>
