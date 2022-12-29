@@ -1,7 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
+
+
 
 const Navbar = () => {
+
 
     // 다른 url 안에서 다른 카테고리의 서브메뉴를 클릭할 수 없음. hovering만 가능함
     // 12/29 목요일 할 일 - submenu에서 클릭 시에 onClick- programatic navigation 써서 

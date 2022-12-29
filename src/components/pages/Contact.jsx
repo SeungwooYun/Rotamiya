@@ -49,7 +49,7 @@ const Contact = () => {
                     <div>
                         <textarea id="email_text" name="email_text" rows="10" cols="10" required></textarea>
                     </div>
-                    <button>Send</button>
+                    <button className="myButton">Send</button>
                 </form>
             </div>
         </PageWrapper>

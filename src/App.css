@@ -39,6 +39,32 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+/* 버튼 cSS */
+.myButton {
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid #b2b8ad;
+	display:block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+        
 /* 백그라운드 비디오*/
 /* 이거 반응형으로 바꿔줘야함 */
 
@@ -310,6 +336,17 @@ button {
   margin: 0;
   padding: 0.5rem 0;
 }
+
+.images-div {
+  text-align: center;
+}
+
+.submenu-title {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
 
 @keyframes rotation {
   from {
