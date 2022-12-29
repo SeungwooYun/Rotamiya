@@ -92,10 +92,11 @@ footer {
   transition: all 0.4s;
   color: #285430;
   white-space: pre-wrap;
+  height: 20%;
 }
 .page-wrapper:hover{
   opacity: 0.8;
-  width: 65%;
+  width: 60%;
 }
 
 
@@ -187,6 +188,20 @@ footer {
   margin: 0;
 }
 
+.submenu-unactive {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.submenu-active {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  opacity: 1;
+}
+
 /* Nav-submenu */
 
 .Nav > .Nav-ul > li > ul {
@@ -215,7 +230,7 @@ footer {
   display: block;
   padding: 1rem 0 0 0.5rem;
   margin: 0;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .Nav > .Nav-ul >  li:hover > ul > li:not( :hover ){
