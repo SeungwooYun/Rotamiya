@@ -20,7 +20,7 @@
 
 /* 기본 html elements */
 body {
-  background-color: #8FA382;
+  /* background-color: #8FA382; */
   margin: 0;
   padding: 5rem 0 0 0 ;
   text-align: center;
@@ -105,7 +105,7 @@ footer {
 /* 헤더 */
 
 .div-Header {
-  background-color: #8FA382;
+  /* background-color: #8FA382; */
   text-align: center;
 }
 
@@ -295,6 +295,12 @@ footer {
   text-align: center;
   opacity: 0.7;
 }
+
+/* products */
+.productsImage {
+  width: 30%;
+}
+
 
 /* Contact */
 

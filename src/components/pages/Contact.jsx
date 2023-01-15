@@ -30,7 +30,7 @@ const Contact = () => {
     });
 
     return <AnimatedPage>
-        <h1 className="title">Contact Us</h1>
+        {/* <h1 className="title">Contact Us</h1> */}
 
 
         <Element id="Company Location" name="Company Location">

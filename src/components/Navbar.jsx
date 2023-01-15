@@ -21,17 +21,6 @@ const Navbar = () => {
                     </NavLink>
                     <ul className="sub-menu">
                         <li>
-                            {/* SENDING SUBMENU ITEM TO CORRESPONDING PAGE */}
-                            <NavLink
-                                className={({ isActive }) => (isActive ? "submenu-active" : "submenu-unactive")}
-                                to={{ pathname: "/products" }}
-                                state={{ sub: "Attire" }}
-                            >
-                                Attire
-                            </NavLink>
-
-                        </li>
-                        <li>
                             <NavLink
                                 className={({ isActive }) => (isActive ? "submenu-active" : "submenu-unactive")}
                                 to={{ pathname: "/products" }}
@@ -50,6 +39,17 @@ const Navbar = () => {
                             >
                                 Health Products
                             </NavLink>
+                        </li>
+                        <li>
+                            {/* SENDING SUBMENU ITEM TO CORRESPONDING PAGE */}
+                            <NavLink
+                                className={({ isActive }) => (isActive ? "submenu-active" : "submenu-unactive")}
+                                to={{ pathname: "/products" }}
+                                state={{ sub: "Garments" }}
+                            >
+                                Garments
+                            </NavLink>
+
                         </li>
                     </ul>
                 </li>

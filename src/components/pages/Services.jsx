@@ -24,7 +24,7 @@ const Services = () => {
     });
 
     return <AnimatedPage>
-        <h1 className="title">Services</h1>
+        {/* <h1 className="title">Services</h1> */}
 
         <Element id="Exhibition Management" name="Exhibition Management">
             <PageWrapper>

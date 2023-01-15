@@ -19,11 +19,11 @@ const MainContents = () => {
             const entry = entries[0]
             const entryContent = entry.target.innerHTML
             // 각 observe가 무슨 글자로 시작하는지로 구분해야함
-            if (entryContent.startsWith('<p>1')) {
+            if (entryContent.startsWith('<p>Rotamiya')) {
                 setIsFirstContentVisible(entries[0].isIntersecting);
-            } else if (entryContent.startsWith('<p>2')) {
+            } else if (entryContent.startsWith('<p>Bridging')) {
                 setIsSecondContentVisible(entries[0].isIntersecting);
-            } else if (entryContent.startsWith('<p>3')) {
+            } else if (entryContent.startsWith('<p>Empowering')) {
                 setIsThirdContentVisible(entries[0].isIntersecting);
             }
         })
@@ -42,20 +42,18 @@ const MainContents = () => {
     // 받아올 수 있다면 베스트이겠지만, 컴포넌트 자체가 많지 않으니 여기서 해결하자
 
     return <>
-        <h1 className="title">Home</h1>
+        <h1 className="title">Welcome to Rotamiya!</h1>
         <div ref={contentRef1} className={`main-contents-text right-side ${isFirstContentVisible ? "appear" : ""}`}>
-            <p>1Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore</p>
+            <p>Rotamiya is a space where the possibilities are endless.
+            </p>
         </div>
 
         <div ref={contentRef2} className={`main-contents-text left-side ${isSecondContentVisible ? "appear" : ""}`}>
-            <p>2Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore</p>
+            <p>Bridging the gaps between nations in trade.</p>
         </div>
 
         <div ref={contentRef3} className={`main-contents-text right-side ${isThirdContentVisible ? "appear" : ""}`}>
-            <p>3Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore</p>
+            <p>Empowering positive change in the world through commitment to charity.</p>
         </div>
     </>
 }
