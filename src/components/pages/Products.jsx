@@ -43,8 +43,25 @@ const Products = (props) => {
                     </h2>
                     <img className="productsImage" src="images/products/ivanteaLogo.png" alt="ivan tea logo"></img>
 
-                    <h2>IVAN-TEA products</h2>
+                    <h3>IVAN-TEA products</h3>
                     <img className="productsImage" src="images/products/chaga-tea.png" alt="chaga-tea picture"></img>
+                    <h4>Immune system support and energy boost</h4>
+                    <h4>Promotes healthy digestion</h4>
+                    <h4> Antioxidant and adaptogen properties</h4>
+                    <h4>Ready to use and can be brewed like tea</h4>
+                    <h4>Pure, fresh, and non-GMO</h4>
+                    <h3>ivan-tea</h3>
+
+                    <img className="productsImage" src="images/products/ivanTea_1.png" alt="ivan tea logo"></img>
+                    <img className="productsImage" src="images/products/ivanTea_2.png" alt="ivan tea logo"></img>
+                    <h4>Balances digestive health.</h4>
+                    <h4>Boosts immune system.</h4>
+                    <h4>Improves mental concentration.</h4>
+                    <h4>Increases energy level.</h4>
+                    <h4>Detoxifies the body.</h4>
+                    <h4>Reduces inflammation.</h4>
+                    <h4>Supports the urinary system's health.</h4>
+                    <h4>Encourages new blood cell production.</h4>
                 </Element>
             </PageWrapper>
             <PageWrapper>
