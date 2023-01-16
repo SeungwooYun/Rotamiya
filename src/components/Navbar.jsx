@@ -76,24 +76,6 @@ const Navbar = () => {
                                 Medical Tourism
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink
-                                className={({ isActive }) => (isActive ? "submenu-active" : "submenu-unactive")}
-                                to={{ pathname: "/Services" }}
-                                state={{ sub: "Translation" }}
-                            >
-                                Translation
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                className={({ isActive }) => (isActive ? "submenu-active" : "submenu-unactive")}
-                                to={{ pathname: "/Services" }}
-                                state={{ sub: "Hosting Event" }}
-                            >
-                                Hosting Event
-                            </NavLink>
-                        </li>
                     </ul>
                 </li>
                 <li className="Nav-hover Nav-last">

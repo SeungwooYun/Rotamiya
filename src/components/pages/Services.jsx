@@ -36,36 +36,10 @@ const Services = () => {
             <PageWrapper>
                 <div id="Medical-Tourism">
                     <h2 className="submenu-title">Medical Tourism</h2>
-                    <h2>Lorem ipsum is placeholder text commonly used in the graphic,
-                        print, and publishing industries for previewing layouts and visual mockups.</h2>
-                    <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,
-                        and publishing industries for previewing layouts and visual mockups.</h2>
+                    <p>Our <strong>medical tourism services</strong> helps you travel easily to another country to receive the medical treatment you need. It involves a wide range of medical services, including surgical procedures, dentistry, and alternative therapies. We help you find the lowest cost for the quality, flexible access to specialized treatments, and you get to combine a vacation with medical care. </p>
                 </div>
             </PageWrapper>
         </Element>
-
-
-        <Element id="Translation" name="Translation">
-            <PageWrapper>
-                <div id="Translation">
-                    <h2 className="submenu-title">Translation</h2>
-                    <h2>Lorem ipsum is placeholder text commonly used in the graphic,
-                        print, and publishing industries for previewing layouts and visual mockups.</h2>
-                    <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,</h2>
-                </div>
-            </PageWrapper>
-        </Element>
-
-
-
-        <PageWrapper>
-            <div id="Hosting-Event" name="Hosting Event">
-                <h2 className="submenu-title">Hosting Event</h2>
-                <h2>Lorem ipsum is placeholder text commonly used in the graphic,
-                    print, and publishing industries for previewing layouts and visual mockups.</h2>
-                <h2>Lorem ipsum is placeholder text commonly used in the graphic, print,</h2>
-            </div>
-        </PageWrapper>
 
     </AnimatedPage>
 }

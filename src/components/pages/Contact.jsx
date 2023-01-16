@@ -72,10 +72,16 @@ const Contact = () => {
                         <button className="myButton">Send</button>
                     </form>
                 </div>
+
+
+                <p>Requirements for applying to this service:</p>
+                <p>*Holder of Rotamiya pass.</p>
+                <p>To apply for a Rotamiya pass, please fill in the form and we will get back to you within 48 hours.</p>
+
             </PageWrapper>
         </Element>
 
-    </AnimatedPage>
+    </AnimatedPage >
 }
 
 export default Contact;
