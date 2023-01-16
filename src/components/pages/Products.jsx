@@ -33,14 +33,14 @@ const Products = (props) => {
                     </h2>
                     <img className="productsImage" src="images/products/Luminiel_logo.png" alt="Luminiel_logo"></img>
                     <h2>Luminiel products</h2>
-                    <img className="productsImage" src="images/products/Luminiel_1.png" alt="Luminiel eye patch"></img>
+                    <img className="productsImage" src="images/products/Luminiel_1.jpg" alt="Luminiel eye patch"></img>
                     <h3>Luminiel I {"( Eye Patch )"}</h3>
                     <p>Luminiel-I is designed for your beauty. The wireless device is a top-of-the-line Korean technology that’s approved by the FDA, TUV SUD, European Union CE, SASO, and ESMA.</p>
                     <p>The LED patch and the serum combine to provide your under-eye area, cheeks, forehead, and face with intensive care to regenerate the skin, heal it, and remove the dark spots, blemishes, eye bags, dark circles, fine lines and wrinkles to fight ageing.</p>
                     <p>It also boosts the absorption of cosmetics and grants your skin a healthier feel and looks. Its compact design is convenient to carry with you anywhere anytime and can be used privately at your convenience, without the need for any outside help or clinical procedures. </p>
 
                     <h3>Luminiel Y {"( Patch for Y-zone )"}</h3>
-                    <img className="productsImage" src="images/products/Luminiel_2.png" alt="Luminiel Y-zone patch"></img>
+                    <img className="productsImage" src="images/products/Luminiel_2.jpg" alt="Luminiel Y-zone patch"></img>
                     <h4>A Korean health technology developed for women.</h4>
                     <p>Luminiel-Y is a Y-zone (bikini area – intimate area – sensitive area) self-care home-use, wearable device that helps your skin heal and repair itself of any damage that might occur during daily routine or waxing jobs. It’s made out of flexible silicone and other skin-safe materials that are suitable to use on all types of skin.</p>
                     <p>The device is wireless and convenient to use.</p>
@@ -58,6 +58,7 @@ const Products = (props) => {
                         <img className="productsImage" src="images/products/Luminiel_4.png" alt="My Formula neck masks"></img>
                         <img className="productsImage" src="images/products/Luminiel_5.png" alt="My Formula neck masks"></img>
                     </div>
+
 
 
 
