@@ -58,7 +58,8 @@ const Products = (props) => {
                         <img className="productsImage" src="images/products/Luminiel_4.png" alt="My Formula neck masks"></img>
                         <img className="productsImage" src="images/products/Luminiel_5.png" alt="My Formula neck masks"></img>
                     </div>
-
+                    <p>
+                        My Formula My Neck Mask reduces wrinkles. The neck skin is one of the thinnest of human skin. That’s why the neck can be very dry. The neck skin can also age very fast, leading to overall aging of the facial skin. Considering the hours people today use their cellphones for, the neck can become all the more wrinkly.</p>
 
 
 

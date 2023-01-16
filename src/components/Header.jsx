@@ -10,7 +10,7 @@ const Header = () => {
             className='video1'
             src='images/video1.mp4' type='video/mp4' autoPlay="autoplay" muted loop>
         </video>
-        <p className="Header-text">Lorem ipsum dolor sit amet</p>
+        {/* <p className="Header-text">Welcome to Rotamiya!</p> */}
         <Navbar />
     </header>
 }
