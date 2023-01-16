@@ -118,12 +118,13 @@ footer {
 
 
 .rotate_logo {
-  width: 10rem;
-  animation: rotation 6s infinite linear;
+  width: 30rem;
+  /* animation: rotation 6s infinite linear; */
   margin-top: 1rem;
   transition: all;
 }
 
+/* 
 .rotate_logo:hover {
   width: 15rem;
   transition-duration: 0.5s;
@@ -132,7 +133,7 @@ footer {
 
 .rotate_logo:not( :hover ) {
   transition-duration: 0.5s;
-}
+} */
 
 /* 네비게이션바 */
 
