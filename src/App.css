@@ -303,6 +303,23 @@ footer {
   width: 50%;
 }
 
+.ivanteaImage {
+  width: 200px;
+}
+
+.productDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.descriptionOntheRight{
+  align-self: center;
+  margin-left: 10px;
+  width: 50%;
+  font-size: 15px;
+}
+
 
 /* Contact */
 
@@ -366,9 +383,23 @@ button {
 
 .submenu-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 5rem;
   color: black;
 }
+
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.marin100top {
+  margin-top:100px;
+}
+
+.fontSize {
+  font-size: 20px;
+}
+
 
 
 @keyframes rotation {
