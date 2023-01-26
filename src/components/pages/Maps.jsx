@@ -6,7 +6,7 @@ import { useMemo } from 'react';
 const Maps = () => {
     const containerStyle = {
         width: '100%',
-        height: '300px',
+        height: '350px',
         margin: "30px auto",
         display: "inline-block"
     };
@@ -42,7 +42,7 @@ const Maps = () => {
     if (!isLoaded) return <div>Loading..</div>
 
     return <GoogleMap
-        zoom={2}
+        zoom={1}
         center={center}
         mapContainerStyle={containerStyle}>
         <MarkerF
