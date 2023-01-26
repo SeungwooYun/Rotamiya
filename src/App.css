@@ -576,6 +576,10 @@ button {
 
 .marin100top {
   margin: 1rem;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 0;
+  text-align: left;
   /* 원래 마진탑 100인데 반응형에선 1rem */
 }
 
@@ -587,11 +591,17 @@ button {
 
 
 .descriptionOntheRight{
-  align-self: center;
   display: block;
-  margin-left: 10px;
   width: 100%;
   font-size: 8px;
+}
+
+p {
+  text-align: left;
+}
+
+h2 {
+  font-size: 0.8rem;
 }
 
 .fontSize {
