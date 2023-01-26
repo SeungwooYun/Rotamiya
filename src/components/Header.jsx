@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return <header id="header" className="div-Header">
         <NavLink to="/">
-            <img className="rotate_logo" src="images/Rotamiya_Logo.png" alt="Rotamiya Logo" />
+            <img className="rotamiya_logo" src="images/Rotamiya_Logo.png" alt="Rotamiya Logo" />
         </NavLink>
         <video
             className='video1'

@@ -117,38 +117,27 @@ footer {
 }
 
 
-.rotate_logo {
+.rotamiya_logo {
   width: 25rem;
-  /* animation: rotation 6s infinite linear; */
   margin-top: 1rem;
   margin-bottom: 25px;
   transition: all;
 }
 
-/* 
-.rotate_logo:hover {
-  width: 15rem;
-  transition-duration: 0.5s;
-  animation: rotation-hover 1s ;
-}
-
-.rotate_logo:not( :hover ) {
-  transition-duration: 0.5s;
-} */
-
-/* 네비게이션바 */
-
 .Nav {
   position: relative;
   bottom: 1.3rem;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .Nav-ul {
   font-size: 1.4rem;
   text-align: center;
   text-decoration: none;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 3%;
+  padding: 0;
 }
 
 .Nav-ul li {
@@ -431,24 +420,19 @@ button {
 }
 
 
-@media (max-width: 1280px) {
+@media (max-width: 820px) {
 
   body {
     padding: 50% 0 0 0 ;
   }
 
   /* header */
-  .rotate_logo {
-    width: 8rem;
+  .rotamiya_logo {
+    width: 12rem;
     margin-top: 0.5rem;
     transition: all;
   }
 
-  .rotate_logo:hover {
-    width: 11rem;
-    transition-duration: 0.5s;
-    animation: rotation-hover 1s ;
-  }
 
   .Header-text {
     font-size: 0.5rem;

@@ -76,7 +76,7 @@ const Contact = () => {
             </PageWrapper>
         </Element>
 
-    </AnimatedPage >
+    </AnimatedPage>
 }
 
 export default Contact;
