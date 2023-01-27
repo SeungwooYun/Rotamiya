@@ -39,9 +39,9 @@ const Contact = () => {
                     <Maps></Maps>
                     <div className="address">
                         <h2 className="address-title">Company Location</h2>
-                        <div><p>25-26, Pungnammun 4-gil, Wansan-gu, Jeonju-si, Jeollabuk-do, Republic of Korea {'\n'}Tel. +82 10 4565 5577</p></div>
-                        <div><p>JIzzakh city Q.Imamov street 49/7, Uzbekistan {'\n'}Tel. +998 91 944 03 30</p></div>
-                        <div><p>602, Falconcity, Dubai, UAE {'\n'}Tel. +971509596945</p>
+                        <div><p className="description_p">25-26, Pungnammun 4-gil, Wansan-gu, Jeonju-si, Jeollabuk-do, Republic of Korea {'\n'}Tel. +82 10 4565 5577</p></div>
+                        <div><p className="description_p">JIzzakh city Q.Imamov street 49/7, Uzbekistan {'\n'}Tel. +998 91 944 03 30</p></div>
+                        <div><p className="description_p">602, Falconcity, Dubai, UAE {'\n'}Tel. +971509596945</p>
                         </div>
                     </div>
                 </div>

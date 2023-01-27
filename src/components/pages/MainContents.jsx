@@ -1,6 +1,19 @@
 import { useEffect, useRef, useState } from "react"
+import { scroller } from "react-scroll";
 
 const MainContents = () => {
+
+
+    useEffect(() => {
+        scroller.scrollTo('header', {
+            duration: 1000,
+            delay: 0.2,
+            smooth: true,
+            offset: -300,
+        });
+    }, []);
+    // 가장 위로 올려놔야 밑의 세 광고문구가 lazy loading 으로 렌더링됨 
+
 
     const contentRef1 = useRef();
     const contentRef2 = useRef();

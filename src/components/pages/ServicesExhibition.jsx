@@ -1,7 +1,7 @@
 const ServicesExhibition = () => {
     return <div id="Exhibition-Management">
         <h2 className="submenu-title">Exhibition Management</h2>
-        <p><strong>Exhibition management</strong> involves planning and organizing exhibitions or trade shows,
+        <p className="description_p"><strong>Exhibition management</strong> involves planning and organizing exhibitions or trade shows,
             including selecting a venue, coordinating logistics, and managing the display of products or artwork.
             Exhibition management can be a challenging and rewarding career, requiring strong organizational skills,
             attention to detail, and the ability to work under tight deadlines. Exhibition managers may also be

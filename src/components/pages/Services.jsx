@@ -36,7 +36,7 @@ const Services = () => {
             <PageWrapper>
                 <div id="Medical-Tourism">
                     <h2 className="submenu-title">Medical Tourism</h2>
-                    <p>Our <strong>medical tourism services</strong> helps you travel easily to another country to receive the medical treatment you need. It involves a wide range of medical services, including surgical procedures, dentistry, and alternative therapies. We help you find the lowest cost for the quality, flexible access to specialized treatments, and you get to combine a vacation with medical care. </p>
+                    <p className="description_p">Our <strong>medical tourism services</strong> helps you travel easily to another country to receive the medical treatment you need. It involves a wide range of medical services, including surgical procedures, dentistry, and alternative therapies. We help you find the lowest cost for the quality, flexible access to specialized treatments, and you get to combine a vacation with medical care. </p>
                 </div>
             </PageWrapper>
         </Element>

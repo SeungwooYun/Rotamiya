@@ -575,7 +575,7 @@ button {
 }
 
 .marin100top {
-  margin: 1rem;
+  margin: 0.8rem;
   font-size: 0.8rem;
   width: 100%;
   padding: 0;
@@ -596,7 +596,7 @@ button {
   font-size: 8px;
 }
 
-p {
+.description_p {
   text-align: left;
 }
 
@@ -612,25 +612,29 @@ h2 {
   text-align: center;
   font-size: 1.3rem;
   color: black;
-  margin: 1rem;
+  margin: 1rem auto;
   width: 10rem;
 }
 
 
 .mapsAndAdressesContainer{
   display: block;
-  flex-wrap: nowrap;
+  padding: 0;
 }  
 .address-title {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .address{
   position: relative;
-  bottom: 20px;
-  font-size: 1rem;
-  margin: 0;
-  width: 100%;
+  bottom: 10px;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  left: 0;
+  width: 90%;
+  border: 1px solid;
+  border-radius: 10%;
+  padding: 0 10px;
 }
 
 form {
