@@ -44,17 +44,18 @@ footer {
 	box-shadow:inset 0px 0px 14px -3px white;
 	background-color:transparent;
 	border-radius:6px;
-	border:1px solid white;
+	border:1px solid gray;
 	display:block;
 	cursor:pointer;
-	color:white;
+	color:black;
 	font-family:Arial;
-	font-size:15px;
+	font-size:13px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px white;
   opacity: 0.3;
+  width: 6rem;
 }
 .myButton:hover {
 	background-color:transparent;
@@ -388,7 +389,8 @@ button {
 }
 
 .fontSize {
-  font-size: 20px;
+  font-size: 15px;
+  padding: 0 5%;
 }
 
 
