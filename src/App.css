@@ -88,7 +88,7 @@ footer {
   opacity: 0.2;
   width: 60%;
   margin: 1% auto;
-  padding:  0.5rem 1rem;
+  padding: 0.5rem 3rem 0.5rem;
   font-size: 1.3rem;
   text-align: left;
   transition: all 0.4s;
@@ -376,6 +376,7 @@ button {
   text-align: center;
   font-size: 3rem;
   color: black;
+  margin-top: 1rem;
   margin-bottom: 0.4rem;
 }
 
@@ -577,7 +578,7 @@ button {
 }
 
 .marin100top {
-  margin: 0.8rem;
+  margin: 0.8rem 0;
   font-size: 0.8rem;
   width: 100%;
   padding: 0;
@@ -612,10 +613,10 @@ h2 {
 
 .submenu-title {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: black;
   margin: 1rem auto;
-  width: 10rem;
+  width: 100%;
 }
 
 
