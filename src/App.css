@@ -78,7 +78,7 @@ footer {
   width: 100%;
   padding: 0;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* tools */
@@ -452,7 +452,7 @@ button {
   width: auto;
   padding: 0;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Navbar */
