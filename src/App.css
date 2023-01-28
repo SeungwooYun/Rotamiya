@@ -74,7 +74,7 @@ footer {
   position:fixed;
   top: 0;
   left: 0;
-  height: auto;
+  /* height: auto; */
   width: 100%;
   padding: 0;
   z-index: -1;
@@ -163,18 +163,18 @@ footer {
 
 .Nav-hover:not( :hover ){
   transition-duration: 0.5s;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .unactive {
   color: white;
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .active {
   transition: all 0.3s;
-  opacity: 0.8;
+  opacity: 1;
   text-decoration: none;
   font-size: 2rem;
   color: white;
@@ -185,7 +185,7 @@ footer {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .submenu-active {
@@ -477,7 +477,7 @@ button {
   
   .unactive {
     text-decoration: none;
-    opacity: 0.3;
+    opacity: 0.4;
     font-size: 1.6rem;
   }
   
@@ -557,7 +557,7 @@ button {
 .page-wrapper{
   background-color: white;
   border-radius: 3rem;
-  opacity: 0.2;
+  opacity: 0.3;
   width: 55%;
   margin: 2% auto;
   padding:  0.5rem 2rem;
@@ -567,7 +567,7 @@ button {
   /* color: #285430; */
 }
 .page-wrapper:hover{
-  opacity: 0.6;
+  opacity: 0.7;
   width: 55%;
   font-size: 0.8rem;
 }
