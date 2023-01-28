@@ -53,7 +53,7 @@ const Contact = () => {
             <PageWrapper>
                 <div id="contactus">
                     <h2 className="ContactUs-title">Contact Us</h2>
-                    <form action="https://formsubmit.io/send/yoooonseungwoo@naver.com" method="POST" onSubmit={onSubmitHandler}>
+                    <form action="https://formsubmit.io/send/rotamiya@gmail.com" method="POST" onSubmit={onSubmitHandler}>
                         <div className="form-emailAndName">
                             <div>
                                 <label htmlFor="email_name"> Name  </label>
