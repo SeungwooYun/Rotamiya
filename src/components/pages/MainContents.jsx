@@ -23,9 +23,6 @@ const MainContents = () => {
     const [isSecondContentVisible, setIsSecondContentVisible] = useState();
     const [isThirdContentVisible, setIsThirdContentVisible] = useState();
 
-    console.log('1번', isFirstContentVisible)
-    console.log('2번', isSecondContentVisible)
-    console.log('3번', isThirdContentVisible)
 
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
